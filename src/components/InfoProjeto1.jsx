@@ -1,7 +1,6 @@
 import React from "react";
 import der from "../public/images/der.png";
 
-
   const SectionContent = ({ title, children }) => {
     const words = title.split(" ");
     const lastWord = words.pop();
@@ -24,7 +23,6 @@ import der from "../public/images/der.png";
   const InfoProjeto1 = () => {
     return (
       <div>
-
         <section id="regras" className="text-white">
           <SectionContent title="Regras de Negócio e Validações">
             <div className="text-justify leading-7 w-11/12 mx-auto"><br />
@@ -138,7 +136,7 @@ import der from "../public/images/der.png";
             </SectionContent>
           </section>
           <div className="py-6">
-            <a href="https://codedeving.com.br/portfolio/" target="_blank" rel="noopener noreferrer">
+            <a href="https://codedeving.com.br/portfolio/pessoas/novo" target="_blank" rel="noopener noreferrer">
               <button className="custom-download-button text-lg">Acessar Aplicação</button>
             </a>
           </div>
