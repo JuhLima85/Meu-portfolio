@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-Poppins scroll-smooth;
+}
+body {
+  @apply box-border bg-gray-900 text-gray-100;
+}
+.btn-primary {
+  @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
+}
+
+.aboutImg::after {
+  @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-gray-600 -z-10;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-white;
+}
+
+input,
+textarea {
+  @apply bg-gray-700 outline-none rounded-lg p-3;
+}
+::placeholder {
+  @apply text-lg;
+}
+
+::selection {
+  @apply bg-cyan-600;
+}
+
+/* Azul personalizado */
+.custom-text-blue {
+  color: #000066;
+}
+
+/* Verde personalizado */
+.custom-text-green {
+  color: #00ff00;
+}
+
+/* Estilo do balão verde whatsapp*/
+.custom-balloon {
+  background-color: #00ff00;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo do balão verde whatsapp */
+.custom-balloon-icons {
+  background-color: #00ff00;
+  border-radius: 50%;
+  width: 4rem; 
+  height: 4rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cor do ícone whatsapp dentro do balão */
+.custom-icon {
+  color: white;  
+}
+
+/* Estilo personalizado para o botão "Download CV" */
+.custom-download-button {
+  background-color: #00ff00; 
+  color: white;   
+  padding: 10px 16px;
+  border-radius: 20px;
+}
+
+
+
+
