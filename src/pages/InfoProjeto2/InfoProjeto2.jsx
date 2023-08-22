@@ -1,5 +1,4 @@
 import React from "react";
-import Navbarinfo from "../../components/Navbarinfo";
 import jpa from "../../public/images/icons/jpa.png";
 import tomcat from "../../public/images/icons/tomcat.png";
 import mysql from "../../public/images/icons/mysql.png";
@@ -9,6 +8,8 @@ import jsp from "../../public/images/icons/jsp.png";
 import javaee from "../../public/images/icons/javaee.png";
 import der from "../../public/images/der2.png";
 
+
+  
 
   const SectionContent = ({ title, children }) => {
     const words = title.split(" ");
@@ -64,7 +65,6 @@ import der from "../../public/images/der2.png";
   
     return (      
       <div>
-       <Navbarinfo />
         <section id="home" className="mt-20 text-white mb-12">
                 <SectionContent title="Ponto Online">
                     <p className="text-gray-400 my-3 text-lg">Resumo</p>

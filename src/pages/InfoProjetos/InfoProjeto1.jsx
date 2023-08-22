@@ -1,5 +1,5 @@
 import React from "react";
-import der from "../public/images/der.png";
+import der from "../../public/images/der.png";
 
   const SectionContent = ({ title, children }) => {
     const words = title.split(" ");
