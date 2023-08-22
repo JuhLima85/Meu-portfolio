@@ -4,6 +4,7 @@ import Main from "./pages/Main";
 import Footer from "./components/Footer";
 import Botao from "./components/Botao";
 import InfoProjetos from "./pages/InfoProjetos";
+import InfoProjeto2 from "./components/InfoProjeto2";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path='/' exact element={<Main />} />
         <Route path='/info-projetos' element={<InfoProjetos />} />
+        <Route path='/info-projeto2' element={<InfoProjeto2 />} />
       </Routes>
       <Footer />
     </Router>

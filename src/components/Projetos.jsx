@@ -1,7 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../public/images/project1.png";
-import project2 from "../public/images/embreve.png";
+import project2 from "../public/images/project2.jpg";
+import project3 from "../public/images/embreve.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -15,10 +16,18 @@ const Projetos = () => {
       github_link: "https://github.com/JuhLima85/PortfolioManager",
       live_link: "https://codedeving.com.br/portfolio/pessoas/novo",
       info_link: "/info-projetos",
-    },    
-
+    },  
+    
     {
       img: project2,
+      name: "Ponto Online",
+      github_link: "https://github.com/JuhLima85/RegistroPonto",
+      live_link: "http://pontoonline.codedeving.com.br/pontoonline/",
+      info_link: "/info-projeto2",
+    },
+
+    {
+      img: project3,
       name: "Em breve,\nmais projetos disponíveis!",
       github_link: "",
       live_link: "",
