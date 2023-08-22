@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Navbarinfo = () => {
+const Navbarinfo = () => { 
   const [sticky, setSticky] = useState(false);
   const [open, setOpen] = useState(false);
   const menuLinks = [

@@ -1,13 +1,14 @@
 import React from "react";
-import Navbar from "./Navbar";
-import jpa from "../public/images/icons/jpa.png";
-import tomcat from "../public/images/icons/tomcat.png";
-import mysql from "../public/images/icons/mysql.png";
-import maven from "../public/images/icons/maven.png";
-import hibernate from "../public/images/icons/hibernate.png";
-import jsp from "../public/images/icons/jsp.png";
-import javaee from "../public/images/icons/javaee.png";
-import der from "../public/images/der2.png";
+import Navbarinfo from "../../components/Navbarinfo";
+import jpa from "../../public/images/icons/jpa.png";
+import tomcat from "../../public/images/icons/tomcat.png";
+import mysql from "../../public/images/icons/mysql.png";
+import maven from "../../public/images/icons/maven.png";
+import hibernate from "../../public/images/icons/hibernate.png";
+import jsp from "../../public/images/icons/jsp.png";
+import javaee from "../../public/images/icons/javaee.png";
+import der from "../../public/images/der2.png";
+
 
   const SectionContent = ({ title, children }) => {
     const words = title.split(" ");
@@ -63,9 +64,9 @@ import der from "../public/images/der2.png";
   
     return (      
       <div>
-       <Navbar />
+       <Navbarinfo />
         <section id="home" className="mt-20 text-white mb-12">
-                <SectionContent title="Portfolio Manager">
+                <SectionContent title="Ponto Online">
                     <p className="text-gray-400 my-3 text-lg">Resumo</p>
                     <p className="text-justify leading-7 w-11/12 mx-auto">
                         "Ponto Online" é um sistema cujo objetivo principal é oferecer um meio eficiente para o controle de ponto de 
@@ -100,7 +101,7 @@ import der from "../public/images/der2.png";
                 </SectionContent>
             </section>
 
-            <section id="testes" className="text-white">
+            <section id="regras" className="text-white">
           <SectionContent title="Instruçoes de Uso">
             <div className="text-justify leading-7 w-11/12 mx-auto"><br />
             <p className="custom-text-green">Recursos Humanos</p>
