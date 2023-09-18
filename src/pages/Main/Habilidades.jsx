@@ -1,19 +1,18 @@
 
 import React from "react";
-import javaee from "../public/images/icons/javaee.png";
-import jdbc from "../public/images/icons/jdbc.png";
-import jpa from "../public/images/icons/jpa.png";
-import springBootIcon from "../public/images/icons/springboot.png";
-import mysql from "../public/images/icons/mysql.png";
-import postgre from "../public/images/icons/postgre.png";
-import oracle from "../public/images/icons/oracle.png";
-import jsp from "../public/images/icons/jsp.png";
-import primefaces from "../public/images/icons/primefaces.png";
-import jsf from "../public/images/icons/jsf.png";
-import angular from "../public/images/icons/angular.png";
-import react from "../public/images/icons/react.png";
-import docker from "../public/images/icons/docker.png";
-import scrum from "../public/images/icons/scrum.png";
+import javaee from "../../public/images/icons/javaee.png";
+import jdbc from "../../public/images/icons/jdbc.png";
+import jpa from "../../public/images/icons/jpa.png";
+import springBootIcon from "../../public/images/icons/springboot.png";
+import mysql from "../../public/images/icons/mysql.png";
+import postgre from "../../public/images/icons/postgre.png";
+import oracle from "../../public/images/icons/oracle.png";
+import jsp from "../../public/images/icons/jsp.png";
+import primefaces from "../../public/images/icons/primefaces.png";
+import jsf from "../../public/images/icons/jsf.png";
+import angular from "../../public/images/icons/angular.png";
+import docker from "../../public/images/icons/docker.png";
+import scrum from "../../public/images/icons/scrum.png";
 
 const Habilidades = () => {
   const icons = [
@@ -75,13 +74,7 @@ const Habilidades = () => {
     {
       img: angular,
       name: "Angular",
-    }
-    ,
-
-    {
-      img: react,
-      name: "React",
-    }
+    }   
     ,
 
     {

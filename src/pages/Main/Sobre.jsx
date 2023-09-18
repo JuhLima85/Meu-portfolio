@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import aboutImg from "../public/videos/gifabout.gif";
-import pdf from "../public/Juliana_CV.pdf";
+import aboutImg from "../../public/videos/gifabout.gif";
+import pdf from "../../public/Juliana Lima - Java Full Stack.pdf";
 
 const Sobre = () => {
   const info = [

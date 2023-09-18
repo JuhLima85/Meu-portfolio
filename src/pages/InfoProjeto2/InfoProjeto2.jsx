@@ -67,7 +67,7 @@ import der from "../../public/images/der2.png";
       <div>
         <section id="home" className="mt-20 text-white mb-12">
                 <SectionContent title="Ponto Online">
-                    <p className="text-gray-400 my-3 text-lg">Resumo</p>
+                    <p className="pt-8 text-gray-400 my-3 text-lg">Resumo</p>
                     <p className="text-justify leading-7 w-11/12 mx-auto">
                         "Ponto Online" é um sistema cujo objetivo principal é oferecer um meio eficiente para o controle de ponto de 
                         funcionários de uma empresa. Através desta aplicação, é possível realizar diversas operações, como cadastro, gerenciamento de 
@@ -79,6 +79,18 @@ import der from "../../public/images/der2.png";
                         A arquitetura do sistema é baseada em Servlets e JSP, onde o código está estruturado em camadas, incluindo o acesso a dados por 
                         meio de classes DAO (Data Access Object) e a interação com o usuário através de Servlets e JSPs.
                     </p>
+                    <div className="flex space-x-4">
+                    <div className="py-6">
+                        <a href="https://pontoonline.codedeving.com.br/pontoonline/" target="_blank" rel="noopener noreferrer">
+                            <button className="custom-download-button text-lg  ml-10">Acessar Aplicação</button>
+                        </a>
+                    </div>
+                    <div className="py-6">
+                        <a href="https://github.com/JuhLima85/Ponto-Online" target="_blank" rel="noopener noreferrer">
+                            <button className="custom-download-button text-lg">Ver Código</button>
+                        </a>
+                    </div>     
+                    </div>  
                 </SectionContent>
             </section>
 
@@ -146,4 +158,4 @@ import der from "../../public/images/der2.png";
     );
   };
 
-  export default InfoProjeto2;
+  export default InfoProjeto2; 

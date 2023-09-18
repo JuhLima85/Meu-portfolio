@@ -1,5 +1,5 @@
 import React from "react";
-import gif2 from "../public/videos/giflove.gif";
+import gif2 from "../../public/videos/gifabout.gif";
 
 const Contato = () => { 
   const contact_info = [

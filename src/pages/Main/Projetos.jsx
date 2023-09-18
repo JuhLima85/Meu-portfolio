@@ -1,8 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../public/images/project1.png";
-import project2 from "../public/images/project2.jpg";
-import project3 from "../public/images/embreve.png";
+import project1 from "../../public/images/project1.png";
+import project2 from "../../public/images/project2.jpg";
+import project3 from "../../public/images/project3.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -28,10 +28,10 @@ const Projetos = () => {
 
     {
       img: project3,
-      name: "Em breve,\nmais projetos disponíveis!",
-      github_link: "",
-      live_link: "",
-      info: "",
+      name: "Mundo do Harry Potter",
+      github_link: "https://github.com/JuhLima85/AngularWorldHarryPotter",
+      live_link: "https://worldhp.netlify.app/",
+      info_link: "/info-projeto3",
     },
     
   ];

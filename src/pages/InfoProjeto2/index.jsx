@@ -15,4 +15,4 @@ const InfoProjetos2 = () => {
   );
 };
 
-export default InfoProjetos2;
+export default InfoProjetos2; 

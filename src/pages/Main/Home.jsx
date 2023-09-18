@@ -1,6 +1,6 @@
 import React from "react";
-import julianaImag from "../public/images/juh.png";
-import setaImag from "../public/images/seta.png";
+import julianaImag from "../../public/images/juh.png";
+import setaImag from "../../public/images/seta.png";
 const Home = () => {
   const social_media = [
 
@@ -32,7 +32,7 @@ const Home = () => {
           </h4>
           <div className="mt-20">
             <div className="flex items-center justify-center md:justify-start">
-              <button className="custom-download-button text-1g" style={{ marginBottom: '50px' }}>
+              <button className="custom-download-button text-1g" style={{ marginBottom: '50px' }} disabled>
                 Entre em Contato
               </button>
               <img

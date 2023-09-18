@@ -1,11 +1,11 @@
 import React from "react";
-import jpa from "../public/images/icons/jpa.png";
-import springBootIcon from "../public/images/icons/springboot.png";
-import mysql from "../public/images/icons/mysql.png";
-import maven from "../public/images/icons/maven.png";
-import hibernate from "../public/images/icons/hibernate.png";
-import jsp from "../public/images/icons/jsp.png";
-import bootstrap from "../public/images/icons/bootstrap.png";
+import jpa from "../../public/images/icons/jpa.png";
+import springBootIcon from "../../public/images/icons/springboot.png";
+import mysql from "../../public/images/icons/mysql.png";
+import maven from "../../public/images/icons/maven.png";
+import hibernate from "../../public/images/icons/hibernate.png";
+import jsp from "../../public/images/icons/jsp.png";
+import bootstrap from "../../public/images/icons/bootstrap.png";
 
 const SectionContent = ({ title, children }) => {
     const words = title.split(" ");
@@ -62,7 +62,7 @@ const TecUtilizadas = () => {
         <div>
             <section id="home" className="mt-20 text-white mb-12">
                 <SectionContent title="Portfolio Manager">
-                    <p className="text-gray-400 my-3 text-lg">Resumo</p>
+                    <p className="pt-8 text-gray-400 my-3 text-lg">Resumo</p>
                     <p className="text-justify leading-7 w-11/12 mx-auto">
                         Esse projeto foi um desafio técnico aplicado para Dev. Full-stack Sênior que eu escolhi fazer para treinar minhas habilidades.
                         O Portfolio Manager é um sistema para gerenciar os dados do portfólio de projetos de uma empresa. O objetivo é proporcionar uma
@@ -77,6 +77,18 @@ const TecUtilizadas = () => {
                         Essa abordagem centralizada facilita a gestão dos membros e a atribuição correta aos projetos. Para interagir e testar a aplicação da melhor
                         forma, dê uma olhada nas regras de negócio e nas validações.
                     </p>
+                    <div className="flex space-x-4">
+                    <div className="py-6">
+                        <a href="https://codedeving.com.br/portfolio/pessoas/novo" target="_blank" rel="noopener noreferrer">
+                            <button className="custom-download-button text-lg  ml-10">Acessar Aplicação</button>
+                        </a>
+                    </div>
+                    <div className="py-6">
+                        <a href="https://github.com/JuhLima85/PortfolioManager" target="_blank" rel="noopener noreferrer">
+                            <button className="custom-download-button text-lg">Ver Código</button>
+                        </a>
+                    </div>     
+                    </div> 
                 </SectionContent>
             </section>
 

@@ -1,22 +1,36 @@
 import React, { useEffect, useState } from "react";
 
-const Navbarinfo = () => { 
+const Navbarinfo = () => {
   const [sticky, setSticky] = useState(false);
   const [open, setOpen] = useState(false);
+  const [activeMenuItems, setActiveMenuItems] = useState([]); 
+  
   const menuLinks = [
     { name: "HOME", link: "#home" },
     { name: "TECS", link: "#tecs" },
     { name: "REGRAS", link: "#regras" },
     { name: "TESTES", link: "#testes" },
     { name: "DER", link: "#der" },
-    { name: "PORTFOLIO", link: "/" },
+    { name: "PORTFOLIO", link: "/" }, 
   ];
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const nav = document.querySelector("nav");
       window.scrollY > 0 ? setSticky(true) : setSticky(false);
     });
+   
+    const getActiveIds = () => {
+      const ids = Array.from(document.querySelectorAll("section[id]")).map(
+        (element) => element.id
+      );
+      return ids;
+    };
+    
+    const idsOnPage = getActiveIds();
+    setActiveMenuItems(idsOnPage);
   }, []);
+
   return (
     <nav
       className={`fixed w-full left-0 top-0 z-[999] ${
@@ -26,7 +40,7 @@ const Navbarinfo = () => {
       <div className="flex items-center justify-between">
         <div className="mx-7">
           <h4 className="text-4xl uppercase font-bold">
-            Code<span className="custom-text-green">Deving</span> 
+            Code<span className="custom-text-green">Deving</span>
           </h4>
         </div>
         <div
@@ -35,11 +49,24 @@ const Navbarinfo = () => {
           } text-gray-900 md:block hidden px-7 py-2 font-medium  rounded-bl-full`}
         >
           <ul className="flex items-center gap-1 py-2 text-lg">
-            {menuLinks?.map((menu, i) => (
-              <li key={i} className="px-6 hover:text-cyan-600">
-                <a href={menu?.link}>{menu?.name}</a>
-              </li>
-            ))}
+            {menuLinks
+              .filter((menu) => {                
+                return (
+                  menu.name === "PORTFOLIO" || activeMenuItems.includes(menu.link.slice(1))
+                );
+              })
+              .map((menu, i) => (
+                <li
+                  key={i}
+                  className={`px-6 ${
+                    sticky
+                      ? "hover:text-cyan-600"
+                      : "text-gray-900"
+                  }`}
+                >
+                  <a href={menu?.link}>{menu?.name}</a>
+                </li>
+              ))}
           </ul>
         </div>
         <div
@@ -57,15 +84,25 @@ const Navbarinfo = () => {
       }`}
         >
           <ul className="flex flex-col justify-center h-full gap-10 py-2 text-lg">
-            {menuLinks?.map((menu, i) => (
-              <li
-                onClick={() => setOpen(false)}
-                key={i}
-                className="px-6 hover:text-cyan-600"
-              >
-                <a href={menu?.link}>{menu?.name}</a>
-              </li>
-            ))}
+            {menuLinks
+              .filter((menu) => {                
+                return (
+                  menu.name === "PORTFOLIO" || activeMenuItems.includes(menu.link.slice(1))
+                );
+              })
+              .map((menu, i) => (
+                <li
+                  onClick={() => setOpen(false)}
+                  key={i}
+                  className={`px-6 ${
+                    sticky
+                      ? "hover:text-cyan-600"
+                      : "text-gray-900"
+                  }`}
+                >
+                  <a href={menu?.link}>{menu?.name}</a>
+                </li>
+              ))}
           </ul>
         </div>
       </div>

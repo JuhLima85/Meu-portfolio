@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import InfoProjeto1 from "./InfoProjeto1"; 
 import Navbarinfo from "../../components/Navbarinfo";
-import TecUtilizadas from "../../components/TecUtilizadas";
+import TecUtilizadas from "./TecUtilizadas";
 
 const InfoProjetos = () => {
   useEffect(() => {
