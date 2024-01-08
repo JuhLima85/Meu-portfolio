@@ -1,6 +1,6 @@
 import React from "react";
 import aboutImg from "../../public/videos/gifabout.gif";
-import pdf from "../../public/Juliana Lima - Java Full Stack.pdf";
+import pdf from "../../public/CV Juliana - JavaFullStack.pdf";
 
 const Sobre = () => {
   const info = [
