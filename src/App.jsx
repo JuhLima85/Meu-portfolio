@@ -6,6 +6,7 @@ import Botao from "./components/Botao";
 import InfoProjetos1 from "./pages/InfoProjeto1";
 import InfoProjetos2 from "./pages/InfoProjeto2";
 import InfoProjetos3 from "./pages/InfoProjeto3";
+import InfoProjetos4 from "./pages/InfoProjeto4";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/info-projetos' element={<InfoProjetos1 />} />
         <Route path='/info-projeto2' element={<InfoProjetos2 />} />
         <Route path='/info-projeto3' element={<InfoProjetos3 />} />
+        <Route path='/info-projeto4' element={<InfoProjetos4 />} />
       </Routes>
       <Footer />
     </Router>

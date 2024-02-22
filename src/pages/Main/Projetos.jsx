@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../../public/images/project1.png";
 import project2 from "../../public/images/project2.jpg";
 import project3 from "../../public/images/project3.png";
+import project4 from "../../public/images/project4.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -32,6 +33,14 @@ const Projetos = () => {
       github_link: "https://github.com/JuhLima85/AngularWorldHarryPotter",
       live_link: "https://worldhp.netlify.app/",
       info_link: "/info-projeto3",
+    },
+
+    {
+      img: project4,
+      name: "Marido de Aluguel",
+      github_link: "https://github.com/JuhLima85/Marido_de_Aluguel-ANGULAR",
+      live_link: "https://maridodealuguel.netlify.app/login",
+      info_link: "/info-projeto4",
     },
     
   ];

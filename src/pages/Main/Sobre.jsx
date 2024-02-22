@@ -4,7 +4,7 @@ import pdf from "../../public/CV Juliana - JavaFullStack.pdf";
 
 const Sobre = () => {
   const info = [
-    { text: "Anos de experiência", count: "02" },
+    { text: "Anos de experiência", count: "03" },
   ];
   return (
     <section id="about" className="py-10 text-white">
@@ -17,20 +17,21 @@ const Sobre = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Sou uma desenvolvedora Java full stack e tenho dois anos de experiência nesta área e, apesar do meu tempo ser relativamente curto no 
-                mercado, já adquiri habilidades e experiência significativas. Além disso, sou estudante do curso de Análise e Desenvolvimento de Sistemas, 
-                o que reforça meu compromisso em me manter atualizada. Estou animada em compartilhar meu portfólio com você, onde você encontrará projetos 
-                que refletem minha experiência na linguagem e seus frameworks.                
-                Vale mencionar que, pensando no futuro, estou desenvolvendo todos os meus projetos pessoais sob a marca Code Deving.
+              Com 3 anos de experiência em desenvolvimento web, sou uma <span className="custom-text-green">desenvolvedora Java Full Stack, graduada em Análise e Desenvolvimento de Sistemas</span> pela UNIFAEL.
+              Em meu último trabalho, atuei na AR SOLUÇÕES, desenvolvendo e mantendo páginas web em sistemas legados de meios de pagamento, utilizando Java 8, Maven, Wildfly, 
+              Hibernate, JPA, JSF com PrimeFaces e Oracle. Além disso, <span className="custom-text-green">realizei projetos como freelancer</span>, criando sistemas web com Spring Boot e Angular para diferentes clientes, 
+              como uma igreja, uma loja de salgados e uma empresa de refrigeração. Em todos os meus trabalhos, busquei entregar soluções de qualidade, seguindo as melhores práticas 
+              de código e design, e atendendo as necessidades dos usuários finais.
+              Estou em busca de uma oportunidade para integrar uma equipe dinâmica e colaborativa, onde possa aplicar meus conhecimentos e habilidades.             
+              Vale mencionar que, pensando no futuro, estou desenvolvendo todos os meus projetos pessoais sob a marca Code Deving.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>
                     <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                      {content.count}
-                      <span className="custom-text-green">+</span>{" "}
+                    {content.count}
                     </h3>
-                    <span className="md:text-base text-xs">{content.text}</span>
+                    <span className="custom-text-green">{content.text}</span>
                   </div>
                 ))}
               </div>
