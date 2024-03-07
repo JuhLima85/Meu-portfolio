@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import InfoProjeto4 from "./infoProjeto4";
-import Navbarinfo from "../../components/Navbarinfo";
+import Navbar4 from "./Navbar4";
 
 const InfoProjetos4 = () => {
     useEffect(() => {
@@ -9,7 +9,7 @@ const InfoProjetos4 = () => {
   
     return (
       <div>
-        <Navbarinfo />  
+        <Navbar4 />  
         <InfoProjeto4 />      
       </div>
     );

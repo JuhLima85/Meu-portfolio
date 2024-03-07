@@ -2,7 +2,9 @@ import React from "react";
 import api from "../../public/images/icons/api.png";
 import javaee from "../../public/images/icons/angular.png";
 import mysql from "../../public/images/icons/mysql.png";   
-import maven from "../../public/images/icons/maven.png"; 
+import maven from "../../public/images/icons/maven.png";
+import docker from "../../public/images/icons/docker.png";
+import teste from "../../public/images/testes4.png";
 import der from "../../public/images/der3.png";
 
   const SectionContent = ({ title, children }) => {
@@ -38,6 +40,10 @@ import der from "../../public/images/der3.png";
         {
             img: mysql,
             name: "Mysql",
+        },
+        {
+          img: docker,
+          name: "Docker",
         },       
         {
             img: maven,
@@ -51,11 +57,11 @@ import der from "../../public/images/der3.png";
                 <SectionContent title="Marido de Aluguel">
                     <p className="pt-8 text-gray-400 my-3 text-lg">Resumo</p>
                     <p className="text-justify leading-7 w-11/12 mx-auto">
-                    Esta aplicação Angular foi desenvolvida para gerenciar e cadastrar clientes e serviços. Além das funcionalidades centrais, integra recursos essenciais, como um sistema
-                    de login para autenticação de usuários, proteção de rotas utilizando o AuthGuard e um Interceptor HTTP para garantir a inclusão adequada do token de autenticação em 
-                    todas as requisições. 
+                    Esta é uma aplicação Spring boot e Angular dedicada ao controle e cadastro de clientes e serviços prestados.
+                    A aplicação Angular integra recursos essenciais, como um sistema de login para autenticação de usuários, proteção de rotas utilizando o AuthGuard, e um Interceptor HTTP para garantir 
+                    a inclusão adequada do token de autenticação em todas as requisições.
                     
-                    A aplicação consome a API Spring Boot, que não apenas realiza o controle e cadastro de clientes e serviços, mas também implementa um
+                    A API Spring Boot, que não apenas realiza o controle e cadastro de clientes e serviços, mas também implementa um
                     sistema de segurança. Esse sistema utiliza tokens JWT (JSON Web Token) para proteger os endpoints, assegurando autenticação e autorização. Além disso, são implementados 
                     testes de integração para garantir a confiabilidade e o correto funcionamento de todas as funcionalidades.
                     </p>
@@ -66,7 +72,7 @@ import der from "../../public/images/der3.png";
                         </a>
                     </div>
                     <div className="py-6">
-                        <a href="https://github.com/JuhLima85/Marido_de_Aluguel-ANGULAR" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/JuhLima85/Marido-de-Aluguel" target="_blank" rel="noopener noreferrer">
                             <button className="custom-download-button text-lg">Ver Código</button>
                         </a>
                     </div>     
@@ -94,6 +100,23 @@ import der from "../../public/images/der3.png";
                 </SectionContent>
                 </div>                
             </section>
+
+            <section id="testes" className="py-3 bg-gray-800 relative">
+            <div className="flex flex-col items-center"> 
+          <SectionContent title="Testes Unitários">
+            <div className="text-justify leading-7 w-11/12 mx-auto"><br />  
+            <p className="text-gray-400 my-3 text-lg flex justify-center">Testes de integração utilizando JUnit 5, Mockito e o banco de dados H2.</p>          
+            <div className="h-full relative flex justify-center items-center">              
+                <img
+                  src={teste}
+                  alt="Testes"
+                  className="max-w-3xl max-h-3xl w-full object-cover bg-cyan-600 rounded-xl"
+                />
+              </div>
+            </div>
+          </SectionContent>
+          </div>
+        </section>
 
           <div className="flex flex-col items-center">
           <section id="der" className="text-white">
