@@ -1,4 +1,5 @@
 import React from "react";
+import java from "../../public/images/icons/java.png";
 import jpa from "../../public/images/icons/jpa.png";
 import tomcat from "../../public/images/icons/tomcat.png";
 import mysql from "../../public/images/icons/mysql.png";
@@ -32,7 +33,10 @@ import der from "../../public/images/der2.png";
 
   const InfoProjeto2 = () => {
     const icons = [
-       
+        {
+        img: java,
+        name: "Java 1.8",
+        },
         {
             img: javaee,
             name: "JavaEE",
@@ -76,8 +80,8 @@ import der from "../../public/images/der2.png";
                     </p>
 
                     <p className="text-justify leading-7 w-11/12 mx-auto">
-                        A arquitetura do sistema é baseada em Servlets e JSP, onde o código está estruturado em camadas, incluindo o acesso a dados por 
-                        meio de classes DAO (Data Access Object) e a interação com o usuário através de Servlets e JSPs.
+                    A arquitetura do sistema segue o padrão MVC (Model-View-Controller), onde o código está estruturado em camadas, incluindo o acesso a 
+                    dados por meio de classes DAO (Data Access Object) e a interação com o usuário através de Servlets e JSPs.
                     </p>
                     <div className="flex space-x-4">
                     <div className="py-6">

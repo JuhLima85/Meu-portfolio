@@ -23,6 +23,8 @@ const Sobre = () => {
               como uma igreja, uma loja de salgados e uma empresa de refrigeração. Em todos os meus trabalhos, busquei entregar soluções de qualidade, seguindo as melhores práticas 
               de código e design, e atendendo as necessidades dos usuários finais.
               Estou em busca de uma oportunidade para integrar uma equipe dinâmica e colaborativa, onde possa aplicar meus conhecimentos e habilidades.             
+             </p>
+             <p className="text-justify leading-7 w-11/12 mx-auto">
               Vale mencionar que, pensando no futuro, estou desenvolvendo todos os meus projetos pessoais sob a marca Code Deving.
               </p>
               <div className="flex mt-10 items-center gap-7">

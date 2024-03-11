@@ -1,6 +1,8 @@
 import React from "react";
 import java from "../../public/images/icons/java.png";
-import api from "../../public/images/icons/api.png";
+import hibernate from "../../public/images/icons/hibernate.png";
+import springBootIcon from "../../public/images/icons/springboot.png";
+import tomcat from "../../public/images/icons/tomcat.png";
 import angular from "../../public/images/icons/angular.png";
 import mysql from "../../public/images/icons/mysql.png";   
 import maven from "../../public/images/icons/maven.png";
@@ -37,15 +39,23 @@ import der from "../../public/images/der3.png";
         {
           img: java,
           name: "Java 11",
-      },
-        {
-            img: api,
-            name: "Spring Boot",
         },
+        {
+          img: hibernate,
+          name: "Hibernate",
+        },
+        {
+          img: springBootIcon,
+          name: "Spring Boot",
+        },       
         {
           img: maven,
           name: "Maven",
-      }, 
+        }, 
+        {
+        img: tomcat,
+        name: "Apache Tomcat",
+        },
         {
             img: mysql,
             name: "Mysql",

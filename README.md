@@ -1,6 +1,6 @@
 # Meu Portfólio Online
 
-Nsta aplicação compartilho informações sobre mim, as tecnologias que trabalho e exemplos dos projetos que desenvolvi. Aqui você encontrará detalhes sobre o meu percurso no mundo do desenvolvimento, bem como links para sites que construí.
+Nesta aplicação compartilho informações sobre mim, as tecnologias que trabalho e exemplos dos projetos que desenvolvi. Aqui você encontrará detalhes sobre o meu percurso no mundo do desenvolvimento, bem como links para sites que construí.
 
 Acesse o meu portfólio online: [https://codedeving.netlify.app/](https://codedeving.netlify.app/)
 
