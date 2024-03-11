@@ -18,8 +18,8 @@ const Sobre = () => {
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
               Com 3 anos de experiência em desenvolvimento web, sou uma <span className="custom-text-green">desenvolvedora Java Full Stack, graduada em Análise e Desenvolvimento de Sistemas</span> pela UNIFAEL.
-              Em meu último trabalho, atuei na AR SOLUÇÕES, desenvolvendo e mantendo páginas web em sistemas legados de meios de pagamento, utilizando Java 8, Maven, Wildfly, 
-              Hibernate, JPA, JSF com PrimeFaces e Oracle. Além disso, <span className="custom-text-green">realizei projetos como freelancer</span>, criando sistemas web com Spring Boot e Angular para diferentes clientes, 
+              Em <span className="custom-text-green">meu último trabalho, atuei na AR SOLUÇÕES,</span> desenvolvendo e mantendo páginas web em sistemas legados de meios de pagamento, utilizando Java 8, Maven, Wildfly, 
+              Hibernate, JPA, JSF com PrimeFaces e Oracle. <span className="custom-text-green">Além disso, realizei projetos como freelancer</span>, criando sistemas web com Spring Boot e Angular para diferentes clientes, 
               como uma igreja, uma loja de salgados e uma empresa de refrigeração. Em todos os meus trabalhos, busquei entregar soluções de qualidade, seguindo as melhores práticas 
               de código e design, e atendendo as necessidades dos usuários finais.
               Estou em busca de uma oportunidade para integrar uma equipe dinâmica e colaborativa, onde possa aplicar meus conhecimentos e habilidades.             

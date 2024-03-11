@@ -1,6 +1,7 @@
 import React from "react";
+import java from "../../public/images/icons/java.png";
 import api from "../../public/images/icons/api.png";
-import javaee from "../../public/images/icons/angular.png";
+import angular from "../../public/images/icons/angular.png";
 import mysql from "../../public/images/icons/mysql.png";   
 import maven from "../../public/images/icons/maven.png";
 import docker from "../../public/images/icons/docker.png";
@@ -30,13 +31,21 @@ import der from "../../public/images/der3.png";
     const icons = [
        
         {
-            img: javaee,
-            name: "Angular.io",
+            img: angular,
+            name: "Angular",
         },
+        {
+          img: java,
+          name: "Java 11",
+      },
         {
             img: api,
             name: "Spring Boot",
         },
+        {
+          img: maven,
+          name: "Maven",
+      }, 
         {
             img: mysql,
             name: "Mysql",
@@ -45,10 +54,7 @@ import der from "../../public/images/der3.png";
           img: docker,
           name: "Docker",
         },       
-        {
-            img: maven,
-            name: "Maven",
-        }, 
+        
     ]
   
     return (      
@@ -57,13 +63,15 @@ import der from "../../public/images/der3.png";
                 <SectionContent title="Marido de Aluguel">
                     <p className="pt-8 text-gray-400 my-3 text-lg">Resumo</p>
                     <p className="text-justify leading-7 w-11/12 mx-auto">
-                    Esta é uma aplicação Spring boot e Angular dedicada ao controle e cadastro de clientes e serviços prestados.
+                    Esta aplicação é dedicada ao controle e cadastro de clientes e serviços prestados. Ela integra o backend por meio de uma API desenvolvida com o framework Spring Boot, enquanto o frontend é construído em Angular.
+                    </p>
+                    <p className="text-justify leading-7 w-11/12 mx-auto">
                     A aplicação Angular integra recursos essenciais, como um sistema de login para autenticação de usuários, proteção de rotas utilizando o AuthGuard, e um Interceptor HTTP para garantir 
                     a inclusão adequada do token de autenticação em todas as requisições.
-                    
-                    A API Spring Boot, que não apenas realiza o controle e cadastro de clientes e serviços, mas também implementa um
-                    sistema de segurança. Esse sistema utiliza tokens JWT (JSON Web Token) para proteger os endpoints, assegurando autenticação e autorização. Além disso, são implementados 
-                    testes de integração para garantir a confiabilidade e o correto funcionamento de todas as funcionalidades.
+                    </p>
+                    <p className="text-justify leading-7 w-11/12 mx-auto">
+                    A API Spring Boot segue o padrão MVC (Model-View-Controller) e implementa um sistema de segurança. Esse sistema utiliza tokens JWT (JSON Web Token) para proteger os endpoints, assegurando autenticação e autorização. 
+                    Além disso, são implementados testes de integração para garantir a confiabilidade e o correto funcionamento de todas as funcionalidades.
                     </p>
                     <div className="flex space-x-4">
                     <div className="py-6">
