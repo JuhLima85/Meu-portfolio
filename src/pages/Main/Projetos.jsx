@@ -38,7 +38,7 @@ const Projetos = () => {
     {
       img: project4,
       name: "Marido de Aluguel",
-      github_link: "https://github.com/JuhLima85/Marido_de_Aluguel-ANGULAR",
+      github_link: "https://github.com/JuhLima85/Marido-de-Aluguel",
       live_link: "https://maridodealuguel.netlify.app/login",
       info_link: "/info-projeto4",
     },
